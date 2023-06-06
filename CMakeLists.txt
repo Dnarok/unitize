@@ -10,4 +10,5 @@ add_library(ulib INTERFACE)
 target_sources(ulib INTERFACE
     include/dimension.hpp
     include/derived_dimensions.hpp
+    include/unit.hpp
 )
